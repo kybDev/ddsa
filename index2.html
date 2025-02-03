@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Dreamers STEAM Academy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.12.3/cdn.min.js" defer></script>
+    <style>
+        .parallax {
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+    
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md fixed w-full z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold">LOGO</div>
+            <ul class="flex space-x-6">
+                <li><a href="#" class="hover:text-blue-600">Home</a></li>
+                <li><a href="#about" class="hover:text-blue-600">About Us</a></li>
+                <li><a href="#programs" class="hover:text-blue-600">Programs</a></li>
+                <li><a href="#contact" class="hover:text-blue-600">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="relative h-screen flex items-center justify-center text-center text-white parallax" style="background-image: url('hero-video-thumbnail.jpg');">
+        <video class="absolute top-0 left-0 w-full h-full object-cover blur-md" autoplay loop muted>
+            <source src="https://video.wixstatic.com/video/5e26e0_ec71691c3531425c9dfc84d4dbc04a82/1080p/mp4/file.mp4" type="video/mp4">
+        </video>
+        <div class="relative z-10">
+            <h1 class="text-5xl font-bold">Before and After School Enrichment Camps and More!</h1>
+            <p class="mt-4 text-lg">A Community Driven Program Rooted by the cultures of the Bay Area</p>
+        </div>
+    </section>
+    
+    <svg class="w-full" height="100" viewBox="0 0 1440 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill="#fff" d="M0,192L1440,96L1440,320L0,320Z"></path>
+    </svg>
+    
+    <!-- Why Choose Us Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold">Why Choose Us</h2>
+            <p class="mt-4 text-lg">Digital Dreamers STEAM Academy takes afterschool learning beyond the classroom with a unique approach...</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 mt-8">
+                <div class="bg-blue-100 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold">Dynamic, Inclusive Education</h3>
+                    <p>Fostering a diverse and engaging learning environment where every student thrives.</p>
+                </div>
+                <div class="bg-blue-100 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold">Innovative Program</h3>
+                    <p>Cutting-edge curriculum designed to inspire creativity and critical thinking.</p>
+                </div>
+                <div class="bg-blue-100 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold">Versatile Learning Outcome</h3>
+                    <p>Equipping students with adaptable skills for academic and career success.</p>
+                </div>
+                <div class="bg-blue-100 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold">Empowering Students</h3>
+                    <p>Providing the tools and confidence to excel in their chosen paths.</p>
+                </div>
+                <div class="bg-blue-100 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold">Future-Ready Success</h3>
+                    <p>Preparing students with knowledge and skills for tomorrow’s challenges.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <svg class="w-full" height="100" viewBox="0 0 1440 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill="#f3f4f6" d="M0,192L1440,96L1440,320L0,320Z"></path>
+    </svg>
+    
+    <!-- Explore Our Programs Section -->
+    <section id="programs" class="py-16 bg-gray-100">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold">EXPLORE OUR PROGRAMS</h2>
+            <p class="mt-4 text-lg">At Digital Dreamers STEAM Academy, we believe that learning goes beyond the classroom...</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 mt-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold">STEAM</h3>
+                    <p>A hands-on program integrating Science, Technology, Engineering, Arts, and Math.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold">CULINARY</h3>
+                    <p>A creative program that hones students' cooking techniques and kitchen management.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold">VISUAL ARTS</h3>
+                    <p>An immersive program exploring various artistic mediums and self-expression.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold">SPORTS & FITNESS</h3>
+                    <p>A dynamic program promoting physical health and teamwork through sports.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold">ENRICHMENT</h3>
+                    <p>A well-rounded program offering academic support and leadership training.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Us Section -->
+    <section id="contact" class="py-16 bg-white text-center">
+        <h2 class="text-4xl font-bold">Contact Us</h2>
+        <p class="mt-4">Get in touch for more details about our programs!</p>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center py-6">
+        <p>&copy; 2025 Digital Dreamers STEAM Academy</p>
+    </footer>
+    
+</body>
+</html>
